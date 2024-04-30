@@ -1,0 +1,30 @@
+OSI:
+   - Divide as funções de comunicação em sete camadas, fornecendo um guia abstrato para o desenvolvimento de protocolos de rede.
+   -Camadas:
+        Camada Física (1): Trata da transmissão física dos bits pela rede.
+        Camada de Enlace de Dados (2): Gerencia a comunicação direta entre dispositivos adjacentes.
+        Camada de Rede (3): Responsável pelo roteamento e encaminhamento de dados entre redes.
+        Camada de Transporte (4): Controla o fluxo de dados e a confiabilidade da transmissão.
+        Camada de Sessão (5): Estabelece, gerencia e encerra conexões entre aplicações.
+        Camada de Apresentação (6): Gerencia a sintaxe e semântica da informação transmitida.
+        Camada de Aplicação (7): Fornece serviços diretos às aplicações do usuário.
+   -Cada camada fornece serviços para a camada superior e utiliza serviços da camada inferior.
+
+
+TCP/IP:
+   -Mais enxuto, composto por quatro camadas, alinhadas com os principais protocolos da Internet.
+   -Camadas:
+      Camada de Acesso à Rede (1): Controla dispositivos de hardware e meios físicos.
+      Camada Internet (2): Determina o melhor caminho pela rede.
+      Camada de Transporte (3): Suporta a comunicação entre dispositivos em diferentes redes.
+      Camada de Aplicação (4): Representa dados para o usuário e controla a codificação e o diálogo.
+
+
+Relação:
+As camadas de Acesso à Rede e Aplicação no TCP/IP são subdivididas em funções mais específicas no modelo OSI.
+O TCP/IP tem menos camadas, o que o torna mais simples e mais adaptado às necessidades da Internet.
+O OSI é mais abstrato e detalhado, o que o torna útil para entender conceitos de rede, mas às vezes complexo demais para a implementação prática.
+O OSI foi criado para ser um padrão internacional, enquanto o TCP/IP foi desenvolvido especificamente para a Internet e sua escalabilidade e interoperabilidade.
+
+
+*OSI sendo mais detalhado e o TCP/IP sendo mais prático e adaptado à Internet*
